@@ -23,9 +23,19 @@ namespace WMS_API.Controllers
         }
         
         [HttpGet]
-        [Route("machinecost/{equip}/{starttime}/{endtime}")]
-        public IActionResult getTotalCost()
+        [Route("get_operate_info")]
+        public IActionResult getOperateInfo()
         {
+            OperateModel dm = new OperateModel(_configuration);
+            return null;
+        }
+
+        [HttpPost]
+        [Route("add_operate_order")]
+        public IActionResult addOperateOrder()
+        {
+            OperateModel dm = new OperateModel(_configuration);
+
             return null;
         }
     }

@@ -29,9 +29,16 @@ namespace WMS_API
         public void ConfigureServices(IServiceCollection services)
         {
             //With webAPI
-            services.AddControllers();
+            //services.AddControllers();
             //With view
-            //services.AddControllersWithViews();
+            services.AddControllersWithViews();
+            //Api Doc
+            services.AddOpenApiDocument();
+
+            services.AddControllersWithViews().AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver()
+            {
+                NamingStrategy = new DefaultNamingStrategy()
+            });
 
             //CORS
             services.AddCors(options =>
@@ -64,7 +71,7 @@ namespace WMS_API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+           if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
@@ -74,10 +81,12 @@ namespace WMS_API
             //     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             //     app.UseHsts();
             // }
-
+            app.UseOpenApi();    // 啟動 OpenAPI 文件
+            app.UseSwaggerUi3(); // 啟動 Swagger UI
             app.UseHttpsRedirection();
             //在 web 根目錄中提供檔案
             app.UseStaticFiles();
+            app.UseSpaStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
             app.UseCors("CorsPolicy");
@@ -87,6 +96,11 @@ namespace WMS_API
                 endpoints.MapControllers(/*
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}"*/);
+            });
+
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = "ClientApp";
             });
         }
     }

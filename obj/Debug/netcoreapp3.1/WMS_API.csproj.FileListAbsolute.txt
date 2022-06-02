@@ -67,3 +67,17 @@ D:\Source\WMS_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\Source\WMS_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Source\WMS_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Source\WMS_API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\ClientApp\build\asset-manifest.json
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NJsonSchema.Yaml.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NSwag.Core.Yaml.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+D:\Source\WMS_API\bin\Debug\netcoreapp3.1\YamlDotNet.dll

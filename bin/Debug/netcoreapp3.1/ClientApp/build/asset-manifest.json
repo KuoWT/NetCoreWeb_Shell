@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1891fb3e.chunk.css",
+    "main.js": "/static/js/main.e8487eaf.chunk.js",
+    "main.js.map": "/static/js/main.e8487eaf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1a225371.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1a225371.js.map",
+    "static/css/2.ba8a8a05.chunk.css": "/static/css/2.ba8a8a05.chunk.css",
+    "static/js/2.c616f7b8.chunk.js": "/static/js/2.c616f7b8.chunk.js",
+    "static/js/2.c616f7b8.chunk.js.map": "/static/js/2.c616f7b8.chunk.js.map",
+    "static/js/3.5ceea2bc.chunk.js": "/static/js/3.5ceea2bc.chunk.js",
+    "static/js/3.5ceea2bc.chunk.js.map": "/static/js/3.5ceea2bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ba8a8a05.chunk.css.map": "/static/css/2.ba8a8a05.chunk.css.map",
+    "static/css/main.1891fb3e.chunk.css.map": "/static/css/main.1891fb3e.chunk.css.map",
+    "static/js/2.c616f7b8.chunk.js.LICENSE.txt": "/static/js/2.c616f7b8.chunk.js.LICENSE.txt",
+    "static/js/main.e8487eaf.chunk.js.LICENSE.txt": "/static/js/main.e8487eaf.chunk.js.LICENSE.txt",
+    "static/media/back24-unsplash.142c11ba.jpg": "/static/media/back24-unsplash.142c11ba.jpg",
+    "static/media/konka.5b068042.jpeg": "/static/media/konka.5b068042.jpeg",
+    "static/media/konka_logo.e8f57cb2.png": "/static/media/konka_logo.e8f57cb2.png",
+    "static/media/logo.251d0e54.png": "/static/media/logo.251d0e54.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a225371.js",
+    "static/css/2.ba8a8a05.chunk.css",
+    "static/js/2.c616f7b8.chunk.js",
+    "static/css/main.1891fb3e.chunk.css",
+    "static/js/main.e8487eaf.chunk.js"
+  ]
+}
